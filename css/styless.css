@@ -1,0 +1,67 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ff9966;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  text-align: left;
+}
+
+.navbar-brand h1 {
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1.5px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+#nav-list {
+  background-color: #ffe566;
+}
+
+#nav-list li {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+#nav-list li:nth-of-type(3) {
+  margin-bottom: 15px;
+}
+
+#main-content {
+  color: black;
+}
+
+#main-content .our-menu {
+  margin-bottom: 50px;
+}
+
+#main-content #chicken-desc {
+  background-color: #66ccff;
+  padding: 20px;
+}
+
+#chicken-desc > .chicken {
+  font-weight: 900;
+  font-size: 1.3em;
+}
+
